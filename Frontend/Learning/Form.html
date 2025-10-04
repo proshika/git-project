@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>types in html</title>
+</head>
+<body>
+    <form action="/action">
+        <div> 
+            <label for="username">Enter username:</label>
+            <input type="text" placeholder="username"  id="username" name="username"/>
+        </div>
+       
+         <label>
+            password
+            <input type="password" placeholder="enter password"/>
+         </label>
+        
+        <br>
+        DATE
+        <input type="date"/>
+        <br>
+        TIME
+        <input type="time"/>
+        <br>
+        COLOUR
+        <input type="color"/>
+        <br> 
+
+        <button type="submit">submit</button>
+        <button type="button"> Hello</button>
+        <button type="reset"> reset</button>
+        <br>
+        <input type="submit">
+        <input type="button" value="click me">
+     </form>
+
+     <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>search</button>
+     </form>
+
+
+     <form action="/action">
+       <!--checked button-->
+        <input type="checkbox" id="age" name="age">
+        <label for="age">i am 18+</label>
+     <br>
+       <!--Radio button-->
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" id="mango" name="fruit" value="mango">
+        <label for="mango">mango</label>
+        <input type="radio" id="banana" name="fruit" value="banana">
+        <label for="banana">banana</label>
+        <button>submit</button>
+      <br>
+      <!--dropdown-->
+      select the profession
+       <select name="profession" id="profession">
+         <option value="stu">student</option>
+         <option value="dev">Devloper</option>
+         <button>submit</button>
+       </select>
+       
+       <br>
+       <!--range-->
+       <label for="vol"> select volume</label>
+       <input type="range" id="vol" name="vol" min="0" max="100" step="10">
+       <button>submit</button>
+       <br>
+       <!--textarea-->
+       <label for="feedback">give your feedback</label>
+       <textarea id="feedback" name="feedback" rows="5" cols="50"></textarea>
+       <button>submit</button>
+
+     </form>
+     <form action="/action">
+      <h1>registration form</h1>
+      <input placeholder="first name">
+      <input placeholder="lastname">
+      <br>
+      please select gender
+      <select>
+         <option value="male">male</option>
+         <option value="female">female</option>
+      </select>
+      <br>
+      Do you agree to all terms of services?
+      <input type="checkbox" id="agree" name="agree">
+      <label for="agree">yes,i agree</label>
+      <br>
+      <button type="submit">register</button>
+
+     </form>
+</body>
+</html>

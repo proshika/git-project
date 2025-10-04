@@ -1,0 +1,323 @@
+/**{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,h3{
+    color:red ;
+}
+/*id selector
+#login{
+    color: blue;
+}
+#signup{
+    background-color: aqua;
+}
+/*class selector
+.upvote{
+    color: rgb(255, 0, 230);
+}
+#myid{
+    color: green;
+}
+/* descendant selector
+.post a{
+    color: chocolate;
+}
+nav ul li{
+    color: blue;
+}
+/*sibling combinator
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    color:red;
+}
+/*chid combinator
+div>input{
+    background-color: azure;
+}
+/*attribute selector
+input[type="text"]{
+    color: chartreuse;
+}
+input[type="password"]{
+    color: orangered;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+h3:hover{
+    text-decoration: none;
+}
+button:active{
+    background-color: coral;
+}
+p:active{
+    font-weight: 200;
+    color: darkgreen;
+}
+
+input[type="radio"]:checked+label{
+    color: brown;
+}
+
+div :nth-of-type(1n){
+    background-color: antiquewhite;
+}
+
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: rgb(143, 109, 25);
+}
+p::selection{
+    background-color: rgb(26, 174, 140);
+}
+    */
+/*
+/*practice que
+*{
+    font-family:'Courier New', Courier, monospace ;
+}
+h1{
+    color: #1b74e4;
+}
+.userbtn{
+    background-color: aqua;
+    color: black;
+}
+button{
+    color: white;
+    background-color:black ;
+} */
+/*
+div{
+    height: 200px;
+    width: 500px;
+    /*border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+    border: 2px solid red;
+    border-left-color: yellowgreen;
+    border-right-color: blue;
+    border-radius: 10px 100px /120px;
+    padding: 20px;
+    margin: 20px;
+}
+button{
+    padding: 5px 5px;
+    color: black;
+    background-color: aquamarine;
+}*/
+/*
+h2{
+    display: inline;
+}
+span{
+    display: block;
+}
+    */
+
+   /* div{
+        height: 500px;
+        width: 500px;
+       background-color:red;
+       transition: 2s;
+       transition-delay: 1s;
+    }
+    div:hover{
+      background-color: blue;
+      border-radius: 50%;
+    } */
+/*
+    div{
+        height: 50px;
+        width: 50px;
+        background-color: blueviolet;
+        margin: 0 auto;
+        margin-top: 50px;
+        transition: margin-top 2s ease-in 0.2s;
+        
+    }
+    div:hover{
+        background-color: brown;
+        margin-top: 50px;
+
+    }*//*
+    section{
+        margin-top: 20px;
+    }
+
+    div{
+        text-align: center;
+        height: 30px;
+        width: 100px;
+        background-color: aqua;
+        margin: 20px;
+    }
+    div :nth-of-type(2n){
+        background-color: chocolate;
+    }
+    div :nth-of-type(3n){
+        background-color: cornflowerblue;
+    }
+    #one{
+        transform: rotate(45deg);
+    }
+    #two{
+        box-shadow: 2px 2px 8px black;
+    }*/
+/*
+    .card{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        border-radius:5%;
+        margin: 20px;
+        display: inline-block;
+        box-shadow: 2px 3px 10px black;
+    }
+    des{
+        padding: 0 2px 0 2px;
+    }
+    img{
+        width:100px;
+        border-radius:5px 5px 0 0 ;
+    }
+
+    .card:hover{
+        box-shadow: 2px 4px 8px black;
+   }*/
+
+/*
+   div{
+    height: 100px;
+    width: 100px;
+    background-color:green ;
+    text-align: center;
+    margin: 20px;
+    display: inline-block;
+    border: 2px solid black;
+   }
+   #static{
+    background-color: blue;
+    position: static;
+    top: 100px;
+    left: 100px;
+   }
+   #relative{
+    background-color: darkgoldenrod;
+    position: relative;
+    top: 100px;
+    left: 100px;
+   }*/
+
+   /*#face{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 230, 0);
+    border-radius: 50%;
+    margin: auto;
+   }
+   #mouth{
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 200px;
+    left:300px;
+    
+   }
+   #eye{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+     right: 300px;
+   }
+
+   #container{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 1opx auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    /*align-items: center;
+    justify-content: baseline;
+   }
+   #blue{
+    flex-grow: 1;
+   }
+   h1{
+    text-align: center;
+   }
+  #container div{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: antiquewhite;
+  }
+
+  .container{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    display: grid;
+    /*grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+  }
+
+  .item{
+   /* width: 300px;
+    height: 50px;
+    background-color: blue;
+    text-align: center;
+    border: 2px solid black;
+  }*/
+
+  .box{
+    width: 300px;
+    height: 200px;
+    background-color: palevioletred;
+    animation-timing-function:ease-in ;
+    animation-name: colorAnimation;
+    animation-duration: 2sec;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: 3;
+  }
+
+  @keyframes colorAnimation{
+    0%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: blue;
+    }
+  }
+  @keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+  }
